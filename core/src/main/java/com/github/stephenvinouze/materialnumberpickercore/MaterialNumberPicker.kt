@@ -153,7 +153,7 @@ class MaterialNumberPicker : NumberPicker {
     /**
      *  Set the font name using your own typeface (example: if you have the font in the resources folder)
      */
-    private fun setFontName(typeface: Typeface) {
+    fun setFontName(typeface: Typeface) {
         fontNameTypeFace = typeface
         updateTextAttributes()
     }
